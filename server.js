@@ -20,4 +20,4 @@ require('./routes/api-routes.js')(app);
 require('./routes/html-routes.js')(app);
 
 // Starts our server on the predefined PORT
-app.listen(PORT, () => {console.log(`App is now listening on PORT ${PORT}`)});
+app.listen((process.env.PORT || 5000), () => {console.log(`App is now listening on PORT ${PORT}`)});//for deploy on heroku
