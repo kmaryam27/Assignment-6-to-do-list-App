@@ -1,0 +1,23 @@
+{
+  "name": "to-do-list-app",
+  "version": "1.0.0",
+  "description": "assignment 6 make a to do list with node.js and deploy on heroku",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test for assignment 6",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmaryam27/Assignment-6-to-do-list-App.git"
+  },
+  "author": "Maryam Keshavarz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmaryam27/Assignment-6-to-do-list-App/issues"
+  },
+  "homepage": "https://github.com/kmaryam27/Assignment-6-to-do-list-App#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
