@@ -85,3 +85,16 @@ module.exports = function(app) {
   });
 
 }
+
+const isValidPassword = function(str){
+  let result = false;
+let strArray = [];
+
+  for (let i = 0; i < str.length; i++) {
+    strArray.push(str[i]);  
+  }
+  strArray.includes
+    if((str.length < 8))
+
+  return result;
+}

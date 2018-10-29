@@ -13,8 +13,8 @@ header{
     background: linear-gradient(141deg, #b80f77 0%, #db1f93 51%, #e82cdf 75%);
     height: 100px;
     color: white;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 h1{
@@ -138,9 +138,9 @@ p{
 
 /********************Desktop version**********************/
 @media only screen and (min-width: 600px){
-    main{
+    /* main{
         border: none;
-    }
+    } */
     h1{
         font-size: 36px;
     }
